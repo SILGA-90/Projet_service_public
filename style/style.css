@@ -5,9 +5,6 @@ header {
     width: 100%;
     height: 180px;
 }
-#sous_contain1 {
-    display: flex;
-}
 #img_1 {
    max-width: 100%;
    height: 100px;
@@ -32,7 +29,6 @@ header {
 #img_2 {
     width: 100%;   
 }
-
 nav {
     width: 100%;
     height: 65px;
@@ -41,6 +37,7 @@ nav {
 #nav-deroulant {
     background-color:#002a40;
 }
+
 .A {
     max-width: 100%;
     height: 25px;
@@ -62,7 +59,7 @@ nav {
 }
 .marge_left ul li a:hover {
 
-    color: white;
+    color: white !important;
     opacity: 100%;
 }
 
@@ -210,7 +207,6 @@ footer small {
     font-size: .7em;
 }
 .row2a a {
-    text-decoration: none;
     color: rgb(179, 174, 174);
 }
 .row2a a:hover {
@@ -243,6 +239,9 @@ footer small {
         width: 300px;
     }
     #span1 {
+        display: none;
+    }
+    .br {
         display: none;
     }
 }

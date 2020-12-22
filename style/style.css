@@ -50,9 +50,11 @@ nav {
 .list-head p {
     font-size: 12px;
 }
-.marge_left {
-    justify-content: center;
+.bottom_img {
+    width: 100%;
+    height: 150px;
 }
+
 .marge_left ul li a {
     color: whitesmoke;
     opacity: 50%;
